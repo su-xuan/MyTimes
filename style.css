@@ -1,0 +1,155 @@
+html, body {
+  margin: 0;
+}
+header {
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  border-bottom: solid black 1px;
+  padding-bottom: 10px;
+  z-index: 2;
+  background-color: white;
+  top: 0;
+}
+
+header, footer, .ListItem {
+    font-family: Verdana;
+}
+
+.main p, h2, .text, .title {
+  font-family: Georgia;
+}
+
+.logo {
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 25px;
+}
+
+header, .item, .main, .bottom, .list, .row1, footer, .rows {
+  display: flex;
+
+}
+
+.item p {
+  margin-left: 10px;
+}
+
+nav {
+  display: inline-block;
+  justify-content: space-around;
+  padding-right: 50px;
+}
+
+nav a {
+  margin-left: 15px;
+}
+
+a {
+  color: black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.main p {
+  font-size: 17px;
+  color: black;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2, .text {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+}
+
+
+.item {
+  display: block;
+}
+
+.item h2 {
+  padding-left: 8px;
+}
+
+.left
+.main {
+  margin-top: 150px;
+  justify-content: space-between;
+  width: 1232px;
+}
+
+
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list {
+  background-color: WhiteSmoke;
+  flex-direction: column;
+  margin-top: 50px;
+
+}
+
+.ListItem {
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: black solid 1px;
+  padding: 20px;
+}
+
+footer {
+  background-color: MediumAquamarine;
+  margin-top: 20px;
+  font-size: 12px;
+  height: 325px;
+  width: 1025px;
+}
+
+.rows {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.row2 {
+  padding-top: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
